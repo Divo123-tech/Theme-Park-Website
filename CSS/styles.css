@@ -1,0 +1,457 @@
+/* refactoring the main elements of the pages to have the same font family */
+main{
+    font-family: 'Passion One', Arial, Helvetica, cursive; 
+}
+
+/* universal navigation */
+.navbar-item{
+    font-size: 2.8rem;
+    padding:0rem 3rem 0 0;
+    font-family: 'Passion One', Arial, Helvetica, cursive;
+    height: 25px;
+
+}
+.nav-link{
+    padding:0 3rem 0 3rem ;
+    margin: 0
+}
+
+.nav-link:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.navbar-brand{
+    font-size: 4.8rem;
+    font-family: 'Allerta Stencil', 'Segoe UI', Tahoma, sans-serif;
+    font-weight: 400;
+    z-index: 2;
+    /* background-image: url(../images/background-logo.png); */
+}
+
+#brand-image{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    z-index: 1;
+    width: 300px;
+}
+
+.navbar{
+    background-color: #0372b1;
+}
+
+.current-page{
+    color: goldenrod;
+}
+.other-page{
+    color:white;
+}
+
+/* universal navigation */
+
+/* universal footer */
+footer{
+    padding:25px;
+    text-align: center; 
+    margin: 0;
+    color: #0372b1;
+
+}
+.fa-brands{
+    margin-left: 30px;
+    font-size: 2rem;
+    padding-bottom: 5px;
+    padding-top:20px;
+    padding-left:15px;
+    
+   
+}
+#copyright{
+    font-size: 12px;
+    color: #777;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+
+}
+/* universal footer */
+
+
+
+/* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE *//* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE */
+/* carousel */
+.carousel-inner{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    
+}
+
+.center-right{
+    position: absolute;
+    bottom:4px;
+    left:16px;
+}
+.carousel-item{
+    height:35rem;
+    background-color: black;
+    position: relative;
+    background-position: center;
+    background-size:cover;
+}
+
+.carousel-caption{
+    color:white;
+    font-size: 6rem;
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    right: 58%;  
+}
+
+
+.carousel-under-caption{
+    color:white;
+    font-size: 1.5rem;
+    position:absolute;
+    bottom: 23%;
+    left: 23.5%;
+    text-align: center;
+}
+
+
+/* features */
+
+.container-marketing{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.feature-main{
+    font-size: 4.5rem;
+    color:goldenrod;
+}
+
+.feature-icon{
+    color: goldenrod;
+    font-size: 5rem;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: #0372b1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    animation-name: feature;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes feature {
+    from {background-color: #0372b1; color: goldenrod;}
+    to {background-color: goldenrod; color: #0372b1;}
+  }
+
+
+.feature-icon:hover{
+    font-size: 5.5rem;
+    width: 155px;
+    height: 153px;
+}
+
+.feature-title{
+    font-size: 2.7rem;
+    color: goldenrod;
+}
+
+
+.feature-description{
+    font-size: 1.3rem;
+    color: #0372b1;
+}
+
+
+
+/* call to action */
+#cta{
+    text-align: center;
+    background-color: #0372b1;
+}
+
+#cta-text{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-size: 3.5rem;
+    color: rgb(242, 242, 242)
+}
+
+.cta-button1{
+    margin-bottom: 50px;
+    font-size: 2.7rem;
+    color: #0372b1;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 15px;
+    
+}
+.fa-ticket{
+    font-size: 2rem;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE *//* HOME PAGE */ /* HOME PAGE */ /* HOME PAGE */
+
+
+/* RIDES PAGE */ /* RIDES PAGE */ /* RIDES PAGE */ /* RIDES PAGE */ /* RIDES PAGE */ /* RIDES PAGE */
+
+
+/* rides */
+
+.rides{
+    text-align: center;
+}
+
+.rides-row{
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+/* card modification */
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    filter: saturate(150%);
+}
+
+
+.card-text{
+    color:white;
+    font-size: 1.2rem;   
+}
+
+.ride-card-title:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+
+/* highflyers */
+
+.highflyers{
+    margin-top: 35px;
+}
+
+.highflyers-slogan{
+    font-size: 6rem;
+    color: #0372b1;
+    padding-top: 20px;
+    text-align: center;
+    animation-name: highflyers;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes highflyers {
+    from {color: #0372b1;}
+    to {color: goldenrod;}
+  }
+
+.highflyer-card{
+    background-color: #0372b1;
+    margin-left:13%;
+    width: 22rem;
+}
+
+.highfly-card-title{
+    font-size: 3rem;
+    color: goldenrod;
+}
+
+
+/* speed demons */
+
+.speed-slogan{
+    font-size: 6rem;
+    color: goldenrod;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    animation-name: speed;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes speed {
+    from {color: goldenrod;}
+    to {color: white;}
+  }
+
+.speed-demons{
+    background-color: #0372b1;
+    margin-top: 50px;
+}
+
+.speed-card{
+    background-color: goldenrod;
+    margin-left:13%;
+    width: 22rem;
+}
+
+.speed-card-title{
+    font-size: 2.9rem;
+    color: #0372b1;
+}
+
+
+/* RIDES PAGE */ /* RIDES PAGE */ /* RIDES PAGE */ /* RIDES PAGE */ /* RIDES PAGE */ /* RIDES PAGE */
+
+
+/* TICKETS PAGE */ /* TICKETS PAGE */ /* TICKETS PAGE */ /* TICKETS PAGE */ /* TICKETS PAGE */ /* TICKETS PAGE */
+
+/* basic tickets */
+.basic-tickets{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.basic-tickets-header{
+    background-color: #0372b1;
+}
+
+.basic-tickets-title{
+    margin-bottom:50px;
+    font-size: 5rem;
+    color: #0372b1;
+}
+
+.basic-tickets-card{
+    margin-left:75px;
+    width: 22rem;
+}
+
+.basic-tickets-age{
+    font-size: 2.3rem;
+    color:white;
+}
+
+.basic-tickets-price{
+    font-size: 3rem;
+    color:goldenrod;
+}
+
+.basic-tickets-description{
+    font-size: 1.2rem;
+    color:#0372b1;
+}
+
+.tickets-btn{
+    color:white;
+    background-color: #0372b1;
+    width:250px;
+    font-size: 2rem;
+}
+
+.tickets-btn:hover{
+    background-color: #0372b1;
+    color: white;
+    filter: saturate(150%);
+    
+}
+
+
+
+/* memberships */
+
+.memberships{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #0372b1;
+    padding-bottom: 30px;
+}
+
+
+.memberships-title{
+    margin-bottom:50px;
+    font-size: 5.5rem;
+    color:goldenrod;
+    
+}
+
+.memberships-card{
+    margin-left:75px;
+    width: 22rem;
+}
+
+.memberships-name{
+    font-size: 2.3rem;
+    color:white;
+}
+
+.memberships-price{
+    font-size: 3rem;
+}
+
+.memberships-description{
+    font-size: 1.2rem;
+}
+
+.executive-header{
+    background-color:purple;
+}
+
+.silver-body{
+    color: darkgray;
+}
+
+.gold-body{
+    color: goldenrod;
+}
+
+.executive-body{
+    color:purple;
+}
+
+.silver-btn{
+    background-color: gray;
+}
+
+.gold-btn{
+    background-color: goldenrod;
+}
+
+
+.executive-btn{
+    background-color: purple;
+}
+
+.silver-btn:hover{
+    background-color: gray;
+    filter:brightness(110%)
+}
+
+
+.gold-btn:hover{
+    background-color: goldenrod;
+    filter:brightness(110%)
+}
+
+.executive-btn:hover{
+    background-color: purple;
+    filter:brightness(110%)
+}
+
+/* TICKETS PAGE */ /* TICKETS PAGE */ /* TICKETS PAGE */ /* TICKETS PAGE */ /* TICKETS PAGE */ /* TICKETS PAGE */
